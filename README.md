@@ -1,54 +1,57 @@
-                                                    StarkConnect – Real-Time Chat App
-A full-stack real-time messaging app built with Next.js 14, TypeScript, and Upstash Redis, featuring secure authentication, smooth UI/UX, image uploads, and live message updates using Pusher.
+# 💬 StarkConnect — Real-Time Chat App
 
-⚙️ Tech Stack
+![Next.js](https://img.shields.io/badge/Next.js-14-blue?logo=nextdotjs)
+![TypeScript](https://img.shields.io/badge/TypeScript-Strong-blue?logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-Styled-38B2AC?logo=tailwindcss)
+![Redis](https://img.shields.io/badge/Upstash_Redis-Connected-red?logo=redis)
+![License](https://img.shields.io/github/license/yourusername/starkconnect)
+![Deployment](https://img.shields.io/badge/Deployed-Vercel-black?logo=vercel)
 
-Frontend: Next.js 14 (App Router), Tailwind CSS, TypeScript
+---
 
-Backend: Upstash Redis (Pub/Sub, Hashes, Sorted Sets), Edge Functions
+## ⚡ Live Demo
 
-Real-Time: Pusher
+👉 [Visit the App](https://starkconnect.vercel.app/)
 
-Auth: Kinde Auth
+---
 
-Media: Cloudinary
+## 🚀 Features
 
-State: React Query, Zustand
+- 🔐 Authentication with Kinde
+- 💬 Real-Time Chat via Pusher + Redis
+- 📷 Upload Images via Cloudinary
+- 🧠 Redis Data Types: Hashes, Sorted Sets, Sets
+- 🎵 Notification + Typing Sounds
+- 🌗 Light / Dark Theme
+- 🖼️ Animated UI with Framer Motion
+- 🧵 Emoji Picker, Typing Effects
+- 📱 Fully Responsive
+- ⚛️ Built with Next.js App Router & Server Actions
 
-UI Enhancements: Framer Motion, Lucide Icons, Dark/Light Theme
+---
 
+## 🛠️ Tech Stack
 
-🚀 Features
+| Technology      | Description                          |
+|-----------------|--------------------------------------|
+| **Next.js 14**  | App Router + Server Actions          |
+| **TypeScript**  | Strong Typing                        |
+| **Tailwind CSS**| Modern Styling                       |
+| **Pusher**      | Real-Time Messaging                  |
+| **Upstash Redis**| Scalable data store for messages    |
+| **Cloudinary**  | Image uploads                        |
+| **Framer Motion**| Smooth UI Animations                |
+| **Kinde Auth**  | Easy authentication                  |
 
-🔐 Secure Authentication (Kinde)
+---
 
-💬 Real-time 1-on-1 Messaging with Pusher
+## 🧠 Learnings
 
-📷 Image Sharing via Cloudinary
+> This project helped me understand how to:
+- Work with Redis data types for real-time apps.
+- Use Pusher with client/server setup.
+- Design accessible and responsive UIs with Tailwind.
+- Build features like emoji picker, sounds, and real-time updates.
 
-🌗 Light and Dark Theme Support
-
-🔔 Typing and Notification Sounds
-
-⌨️ Animated Typing Effects
-
-🧠 Redis-backed Chat Storage
-
-📱 Fully Responsive UI
-
-🛠️ Scalable Architecture with Upstash Redis
-
-🌐 SEO-friendly, SSR-enabled via Next.js
-
-
-
-📡 Deployment
-
-Supports deployment to Vercel (recommended)
-
-Redis via Upstash (free tier works!)
-
-Pusher for real-time messaging (free tier)
-
-Cloudinary for image hosting
+---
 
