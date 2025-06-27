@@ -43,6 +43,7 @@ UI Enhancements: Framer Motion, Lucide Icons, Dark/Light Theme
 
 
 📡 Deployment
+
 Supports deployment to Vercel (recommended)
 
 Redis via Upstash (free tier works!)
