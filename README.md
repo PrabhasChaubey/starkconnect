@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+                                                    StarkConnect – Real-Time Chat App
+A full-stack real-time messaging app built with Next.js 14, TypeScript, and Upstash Redis, featuring secure authentication, smooth UI/UX, image uploads, and live message updates using Pusher.
 
-## Getting Started
+⚙️ Tech Stack
 
-First, run the development server:
+Frontend: Next.js 14 (App Router), Tailwind CSS, TypeScript
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Backend: Upstash Redis (Pub/Sub, Hashes, Sorted Sets), Edge Functions
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Real-Time: Pusher
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Auth: Kinde Auth
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Media: Cloudinary
 
-## Learn More
+State: React Query, Zustand
 
-To learn more about Next.js, take a look at the following resources:
+UI Enhancements: Framer Motion, Lucide Icons, Dark/Light Theme
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🚀 Features
 
-## Deploy on Vercel
+🔐 Secure Authentication (Kinde)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+💬 Real-time 1-on-1 Messaging with Pusher
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📷 Image Sharing via Cloudinary
+
+🌗 Light and Dark Theme Support
+
+🔔 Typing and Notification Sounds
+
+⌨️ Animated Typing Effects
+
+🧠 Redis-backed Chat Storage
+
+📱 Fully Responsive UI
+
+🛠️ Scalable Architecture with Upstash Redis
+
+🌐 SEO-friendly, SSR-enabled via Next.js
+
+
+
+📡 Deployment
+Supports deployment to Vercel (recommended)
+
+Redis via Upstash (free tier works!)
+
+Pusher for real-time messaging (free tier)
+
+Cloudinary for image hosting
+
